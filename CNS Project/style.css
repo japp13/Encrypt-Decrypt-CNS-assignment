@@ -6,6 +6,17 @@ body {
   background-size: cover;
 }
 
+.google-button {
+  margin: 20px 0;
+}
+
+#googleButton {
+  background-color: #dd4b39;
+}
+#googleButton :hover {
+  background-color: #c23321;
+}
+
 .container {
   max-width: 400px;
   width: 80%; /* Adjust the width as needed */

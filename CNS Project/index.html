@@ -13,7 +13,14 @@
         <input type="password" placeholder="Password" id="password" required />
         <button type="button" id="loginButton">Login</button>
       </form>
-      <p class="message">Not registered? <a href="#">Create an account</a></p>
+      <div class="google-button">
+        <button type="button" id="googleButton" onclick="signIn()">
+          Sign in with Google
+        </button>
+      </div>
+      <p class="message">
+        Not registered? <a href="#" id="createacc">Create an account</a>
+      </p>
     </div>
   </body>
 </html>
