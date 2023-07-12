@@ -27,7 +27,7 @@ function signIn() {
   // Parameters to pass to OAuth 2.0 endpoint.
   var params = {
     client_id:
-      "145912706216-jkoptsb1tsur56ajq6ta1i6ahhqjr4vs.apps.googleusercontent.com",
+      "#YOUR_CLIENT_IT",
     redirect_uri: "http://127.0.0.1:5500/encrypt-decrypt/index.html",
     response_type: "token",
     scope: "https://www.googleapis.com/auth/userinfo.profile",
